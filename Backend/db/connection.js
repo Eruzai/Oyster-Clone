@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const url =
-  "mongodb+srv://gautamkhosla75:PBy1oVeSMzyRlYIY@cluster0.svsda.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  "MONGODBURL";
 
 // ! PBy1oVeSMzyRlYIY
 export const connectDB = async () => {
