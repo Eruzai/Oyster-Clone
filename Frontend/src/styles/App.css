@@ -1,0 +1,36 @@
+@import url("https://fonts.cdnfonts.com/css/general-sans");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #fef7f7;
+}
+
+@media (min-width: 767px) {
+  .title-big {
+    font-size: 36px;
+    font-weight: 800;
+  }
+
+  .title-small {
+    font-size: 24px;
+  }
+
+  .form-element-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .slide-container {
+    width: 100%;
+  }
+
+  .search-results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
